@@ -1,5 +1,9 @@
 source("Code for project/04 Wrangling the Tram&Light Rail Data.R")
 
+#vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv|
+##**THIS COULD BE CUT DOWN SUBSTANTIALLY USING FUNCTIONS. I WILL GET ROUND TO THIS AT SOME POINT|
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|
+
 ##**WRANGLING THE REAL MEDIAN INCOME DATA**
 #=> Starting with the 2010 data, I want to unify the local authorities included with the ones in my main dataframe. This will be the first step. 
 if (file.exists('Sources of data/Income data/2010-revised-table-8') == FALSE) {
